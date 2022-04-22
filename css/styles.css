@@ -103,6 +103,8 @@ p{
 
 .site-nav a{
     color: var(--secondary-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav a:hover{
@@ -128,6 +130,8 @@ p{
     letter-spacing: 0.02em;
 
     color: var(--primary-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-icon{
@@ -258,6 +262,9 @@ p{
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
     cursor: pointer;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -445,6 +452,9 @@ p{
     height: 44px;
     border-radius: 50%;
     color: var(--svg-primary-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -475,6 +485,14 @@ p{
     
     width: 170px;
     height: 92px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-icon{
+    fill: currentColor;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link{
@@ -485,12 +503,16 @@ p{
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+ 
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover,
 .client-link:focus{
     color: var(--accent-color);
     border-color: var(--accent-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item+.clients-item{
@@ -531,6 +553,8 @@ p{
 .page-footer .social-link{
     color: var(--primary-bg-color);
     background-color: var(--socials-bg-footer-color);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-footer .social-link:hover,
@@ -587,6 +611,8 @@ p{
     color: var(--secondary-text-color);
     background-color: var(--third-bg-color);
     cursor: pointer;
+    
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-btn:hover,
@@ -597,6 +623,9 @@ p{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list{
@@ -626,6 +655,8 @@ p{
 
 .portfolio-item .link{
     display: block;
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item .link:hover{
